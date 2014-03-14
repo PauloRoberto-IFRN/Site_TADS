@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Cristiane Leandro e Paulo Roberto" />
+		<title>TADS - Contato</title>
+		<link type="text/css" rel="stylesheet" href="estilos/formtads.css" />
+		<script type="text/javascript" src="estilos/tads.js"></script>
+	</head>
+	<body onLoad="slide1()">
+		<div id="geral">
+			<header>
+				<a href="index.html"><img id="tads" src="imagens/tads.png" alt="TADS" /></a>
+				<div id="slide">
+					<a id="aId"><img id="id" src="#" alt="slide" /></a>
+				</div>
+				<div id="busca">
+					<form action="#" method="post">
+						<p>
+							<label for="buscar">Busca:</label>
+							<input type="search" id="buscar" name="buscar"/>
+							<input type="image" src="imagens/icone_lupa.png" alt="lupa" />
+						</p>	
+					</form>
+				</div>
+				<nav>
+					<ol>	
+						<li><a href="index.html">Home</a></li>
+						<li><a href="disciplinas.html">Disciplinas</a></li>
+						<li><a href="objetivos.html">Objetivos</a></li>
+						<li id="abresub"><a href="#">Contato</a>
+							<ol id="submenu">
+								<li><a href="http://portal.ifrn.edu.br/campus/natalcentral/contatos">IFRN</a></li>
+								<li><a href="contato.html">Alunos</a></li>
+							</ol>
+						</li>
+					</ol>
+				</nav>
+			</header>
+			<section>
+				<article>
+					<h1>Fale Conosco!</h1>
+					<div id="contato">
+						<form action="#" method="post">
+							<label for="nome">Nome: </label>
+							<input type="text" name="nome" id="nome" />
+							
+							<label for="email">E-mail: </label>
+							<input type="text" name="email" id="email" />
+							
+							<label for="tel">Telefone: </label>
+							<input type="tel" name="tel" id="tel" />
+							<em>(xx) xxxx-xxxx</em>
+
+							<label for="assunto">Assunto: </label>
+							<input type="text" name="assunto" id="assunto" />
+
+							<label for="mensagem">Mensagem: </label>
+							<textarea name="mensagem" cols="40" rows="10" id="mensagem"></textarea>
+
+							<input type="submit" name="enviar" value="Enviar" class="botao" onclick="alert('Dados enviados com sucesso!')" />
+							<input type="reset" name="limpar" value="Limpar" class="botao" onclick="limparForm()" />
+						</form>
+					</div>
+				</article>
+				<aside>
+					<p><a href="http://portal.ifrn.edu.br/campus/natalcentral/calendario-academico.html">Calendário Acadêmico</a></p>
+					<p><a href="http://portal.ifrn.edu.br/campus/natalcentral/horario-de-aulas.html">Horários de Aula</a></p>
+					<p><a href="http://diatinf.ifrn.edu.br/">DIATINF</a></p>
+					<fieldset>
+						<legend>Login</legend>
+						<form action="#" method="post" id="form">
+							<p class="login">
+								<label for="login">Usuário:</label>
+								<input type="text" id="login" name="login" />
+								<label for="senha">Senha:</label>
+								<input type="password" id="senha" name="senha" />
+							</p>
+							<p class="button">
+								<input type="submit" value="Ok" class="button"/>
+							</p>
+						</form>
+					</fieldset>
+				</aside>
+			</section>
+			<footer>
+				<div class="redessocial">
+					<ul>
+						<li><a href="https://www.facebook.com/groups/318558708283055/?fref=ts"><img src="imagens/face.jpg" alt="Facebook" /></a></li>
+						<li><a href="http://www.ifrn.edu.br"><img src="imagens/ifrn.png" alt="IFRN"></a></li>
+					</ul>
+				</div>
+				<p>
+					&copy; Copyright by Cristiane Viana e Paulo Roberto.
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

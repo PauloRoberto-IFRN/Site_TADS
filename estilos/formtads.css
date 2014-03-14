@@ -1,0 +1,227 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+/*---------------------------------------------------------*/
+body{
+	font-family: arial;
+	margin: 0 auto;
+	background-color: #212a54;
+}
+
+/*---------------------------------------------------------*/
+div#geral{
+	margin: 0 auto;
+	width: 810px;
+	box-shadow: 0px 0px 20px #000000;
+	padding: 0 10px;
+	background-color: #ffffff;
+}
+
+/*---------------------------------------------------------*/
+header img{
+	width: 400px;
+	padding: 5px 0 0 0;
+}
+
+#tads{
+	margin-top: 10px;
+}
+
+#slide{
+	width: 350px;
+	float: right;
+	margin-right: 50px;
+}
+
+#slide img{
+	
+	height: 120px;
+}
+/*------------------ Form de Busca ----------------------------*/
+div#busca{
+	background-color: #d3d3d3;
+	text-align: right;
+	padding: 3px;
+	clear: both;
+}
+
+/*----------------- Menu ---------------------------*/
+nav{
+	font-family: arial;
+	padding: 20px 0;
+	text-align: center;
+}
+
+nav li{
+	list-style-type: none;
+	display: inline;
+	font-size: 20px;
+	margin-right: 60px;
+	position: relative;
+
+}
+
+nav li:last-child{
+	margin-right: 0;
+}
+
+nav li a{
+	text-decoration: none;
+	color: #808080;
+}
+
+nav li a:hover{
+	color: #000000;
+}
+
+/*---------------- SubMenu ----------------------------------*/
+nav li#abresub:hover ol#submenu{
+	display: block;
+}
+
+nav ol#submenu{
+	text-align: left;
+	display: none;
+	position: absolute;
+	width: 80px;
+	background-color: #ededed;
+	padding: 10px 0 10px 10px;
+}
+
+nav ol#submenu li{
+	display: block;
+	margin-right: 0;
+	font-size: 14px;
+}
+
+/*---------------------------------------------------------*/
+article, aside{
+	float: left;
+	margin: 20px 0;
+}
+
+article{
+	border-right: 1px solid #606060;
+	margin-right: 10px;
+	width: 600px;
+	padding: 5px;
+}
+
+section article h1{
+	padding: 20px 5px;
+	font-size: 18px;
+	text-align: justify;
+}
+
+section article h2{
+	padding: 5px;
+	font-size: 16px;
+}
+
+section article p{
+	padding: 5px;
+	font-size: 14px;
+	text-align: justify;
+}
+
+section article ul{
+	padding: 4px 50px;
+	font-size: 14px;
+
+}
+
+aside{
+	width: 180px;
+}
+
+section aside p{
+	font-size: 16px;
+	background-color: #d3d3d3;
+	padding: 20px 0 20px 10px;
+	margin-bottom: 20px;
+}
+
+section aside a{
+	text-decoration: none;
+	color: #000000;
+}
+
+section aside fieldset p.login{
+	font-size: 14px;
+	text-align: left;
+	background-color: #d3d3d3;
+	margin-bottom: -20px;
+}
+
+section fieldset p.button{
+	text-align: right;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 0;
+}
+
+/*---------------------------------------------------------*/
+footer{
+	padding: 20px;
+	background-color: #d3d3d3;
+	clear: both;
+}
+
+footer p{
+	font-size: 12px;
+	text-align: center;
+}
+
+footer div.redessocial ul li{
+	display: inline;
+	list-style-type: none;
+	float: right;
+	padding: 0 8px;
+}
+
+/*----------- Página Disciplinas ----------------*/
+#pri_peri,#ter_peri,#qui_peri{
+	float: left;
+	width: 295px;
+	padding: 8px 0;
+}
+
+#seg_peri,#qua_peri,#sex_peri{
+	float: right;
+	width: 295px;
+	padding: 8px 0;
+}
+
+/*----------- Página Contatos ----------------*/
+div#contato form{
+	width: 480px;
+	background: #d3d3d3;
+	margin: 10px auto;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+div#contato form label{
+	font-size: 14px;
+	font-family: Verdana, Geneva, Arial;
+	display: block;
+	padding: 8px 0;
+}
+
+div#contato form textarea{
+	width: 470px;
+	border-radius: 6px;
+}
+
+div#contato form input{
+	width: 460px; 
+	padding: 5px;
+	border-radius: 6px;
+}
+
+div#contato form input.botao{
+	width:235px;
+	background-color: #069;
+	color: #ffffff;
+}
