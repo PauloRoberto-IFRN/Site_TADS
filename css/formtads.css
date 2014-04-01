@@ -32,15 +32,15 @@ header img{
 #slide{
 	width: 350px;
 	float: right;
-	margin-right: 50px;
+	margin-right: 5px;
 }
 
 #slide img{
-	
-	height: 120px;
+	height: 108px;
 }
 /*------------------ Form de Busca ----------------------------*/
 div#busca{
+	margin-top: 30px;
 	background-color: #d3d3d3;
 	text-align: right;
 	padding: 3px;
